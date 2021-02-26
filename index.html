@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src= 'script.js'></script>
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -28,8 +29,11 @@
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
     </header>
+    <div id="calendar-row1" class="row justify-content-md-center border-top border-bottom calendar-row">
+        <div id="time1"class="col-md-1">8 AM</div>
+        <textarea rows="3" id="text-entry1" class="col-md-10"></textarea>
+        <button id="save" class="col-md-1"><i class="far fa-save"></i></button>
     <div class="container">
-      <!-- Timeblocks go here -->
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
